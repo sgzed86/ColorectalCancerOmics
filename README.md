@@ -5,4 +5,4 @@ This analysis is written in R using the data from TCGA, analyzing based on the a
 
 The Cancer Genome Atlas (TCGA), specifically the colorectal cancer cohort, which includes colon adenocarcinoma (COAD) and rectal adenocarcinoma (READ) cases. I ended up only using the READ cases. 166 cases with over 60k variables for gene expression associated with READ, it was the smaller dataset. 
 
-5/23/2025 I created a heat map that shows each column as a tumor and each row as a gene expression. I am only looking at one type of primary tumor so it does not add much. I will need to go back and add the COAD data and the heat map should help differeientiate the two tumor types.
+5/23/2025 I created a heat map that shows each column as a tumor and each row as a gene expression for normal and READ patients. 
