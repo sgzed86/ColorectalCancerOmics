@@ -46,3 +46,13 @@ This suggests that clustering with normal samples may partly reflect stage, but 
 | TCGA-AG-A01J      | MSS        | Rectum             |
 
 MSI status: 3 of 8 are explicitly MSS (microsatellite stable); the rest are missing MSI info. Tumor location: 3 of 8 are from the rectum, others are unspecified. As I am only looking at Rectal cancer patients this makes sense but that means 5 of these patients have gene expressions for rectal cancer but have yet to present.
+
+*****************************************************************************************************************************************************************************************
+
+Went back to (READ) full sample and did a KNN analysis. Started with a silhouette analysis to find optimal clusters. 2 is the highest thus I ran a PCA differentiated by the 2 clusters. It found similar clusters to that of he hierarchal clustering.
+
+*****************************************************************************************************************************************************************************************
+
+
+
+
