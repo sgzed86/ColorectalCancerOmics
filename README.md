@@ -7,7 +7,7 @@ The Cancer Genome Atlas (TCGA), specifically the colorectal cancer cohort, which
 
 5/23/2025 I created a heat map that shows each column as a tumor and each row as a gene expression for normal and READ patients. 
 
-I did some hierarchal clustering on the normal and READ cases. And found a very interesting overlap in the 2 clusters.
+I did some hierarchal clustering on the normal and READ cases. And found some overlap in the 2 clusters.
 
 ### Sample Clustering Results
 
