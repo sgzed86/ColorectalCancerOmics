@@ -30,7 +30,7 @@ Further analysis of the 8 cases in cluster 2 reveal 50/50 of early and late stag
 | Stage IIIB  | 2     |
 | Stage IIIC  | 1     |
 
-This suggests that clustering with normal samples may partly reflect stage, but other factors are likely influencing expression, such as:Tumor purity (high stromal/immune content may skew expression), Tumor location (right vs left colon), MSI status or other molecular subtypes
+This suggests that clustering with normal samples may partly reflect stage, but other factors are likely influencing expression, such as:Tumor purity (high stromal/immune content may skew expression), Tumor location, MSI status or other molecular subtypes
 
 ### MSI Status & Anatomic Location – "Normal-like" Tumors
 
