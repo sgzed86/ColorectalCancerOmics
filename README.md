@@ -31,3 +31,18 @@ Further analysis of the 8 cases in cluster 2 reveal 50/50 of early and late stag
 | Stage IIIC  | 1     |
 
 This suggests that clustering with normal samples may partly reflect stage, but other factors are likely influencing expression, such as:Tumor purity (high stromal/immune content may skew expression), Tumor location (right vs left colon), MSI status or other molecular subtypes
+
+### MSI Status & Anatomic Location – "Normal-like" Tumors
+
+| Sample ID         | MSI Status | Anatomic Location |
+|-------------------|------------|--------------------|
+| TCGA-EI-6506      | NA         | NA                 |
+| TCGA-AG-3602      | MSS        | Rectum             |
+| TCGA-CI-6624      | NA         | NA                 |
+| TCGA-AG-3909      | MSS        | Rectum             |
+| TCGA-AF-6136      | NA         | NA                 |
+| TCGA-AH-6547      | NA         | NA                 |
+| TCGA-AG-4022      | NA         | NA                 |
+| TCGA-AG-A01J      | MSS        | Rectum             |
+
+MSI status: 3 of 8 are explicitly MSS (microsatellite stable); the rest are missing MSI info. Tumor location: 3 of 8 are from the rectum, others are unspecified. As I am only looking at Rectal cancer patients this makes sense but that means 5 of these patients have gene expressions for rectal cancer but have yet to present.
