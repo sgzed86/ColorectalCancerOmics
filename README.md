@@ -9,8 +9,12 @@ The Cancer Genome Atlas (TCGA), specifically the colorectal cancer cohort, which
 
 I did some hierarchal clustering on the normal and READ cases. And found a very interesting overlap in the 2 clusters.
 
-sample_clusters Normal Tumor<br/>
-              1      0   158<br/>
-              2     41     8<br/>
+### Sample Clustering Results
+
+| Cluster | Normal Samples | Tumor Samples |
+|---------|----------------|----------------|
+| 1       | 0              | 158            |
+| 2       | 41             | 8              |
+
 
 I am very interested in the 8 cases that are overlapping...
