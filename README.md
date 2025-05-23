@@ -18,3 +18,16 @@ I did some hierarchal clustering on the normal and READ cases. And found some ov
 
 
 I am very interested in the 8 cases that are overlapping...Tumors with lower malignancy or stromal contamination, Misclassified samples (rare in TCGA, but possible), Candidates for deeper clinical or molecular subtype review
+
+Further analysis of the 8 cases in cluster 2 reveal 50/50 of early and late stage cancers:
+### Tumor Stage Distribution – "Normal-like" Tumors
+
+| Tumor Stage | Count |
+|-------------|-------|
+| Stage I     | 1     |
+| Stage II    | 1     |
+| Stage IIA   | 2     |
+| Stage IIIB  | 2     |
+| Stage IIIC  | 1     |
+
+This suggests that clustering with normal samples may partly reflect stage, but other factors are likely influencing expression, such as:Tumor purity (high stromal/immune content may skew expression), Tumor location (right vs left colon), MSI status or other molecular subtypes
