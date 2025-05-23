@@ -1,5 +1,5 @@
 # ColorectalCancerOmics
-This is just Gen-omics research currently, I will layer in the multi-omics from CPTAC later.
+This is just Gen-omics research currently, I will layer in the multi-omics from CPTAC later. I am trying to use the python api to merge several datasets together.
 
 This analysis is written in R using the data from TCGA, analyzing based on the available cancer markers.
 
