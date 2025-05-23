@@ -17,4 +17,4 @@ I did some hierarchal clustering on the normal and READ cases. And found a very 
 | 2       | 41             | 8              |
 
 
-I am very interested in the 8 cases that are overlapping...
+I am very interested in the 8 cases that are overlapping...Tumors with lower malignancy or stromal contamination, Misclassified samples (rare in TCGA, but possible), Candidates for deeper clinical or molecular subtype review
