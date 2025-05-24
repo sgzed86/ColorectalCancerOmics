@@ -36,6 +36,9 @@ I used prinipal component analysis to obtain the charts below but it appears tha
 
 I am dealing with a severely imbalanced binary classification problem (89 zeros vs. 7 ones). To create a more balanced sample for model training I need to reluctantly use SMOTE to oversample for the positive class.
 
+The analysis of Fisher’s Discriminant Ratio (FDR) reveals a significant improvement in classification performance after balancing the dataset. In the original dataset, the maximum FDR was capped at 1000.0000, while the average FDR was relatively low at 0.6889. This corresponded with a poor F1 score of 0.0000, indicating that the model struggled to classify due to severe class imbalance. After balancing the dataset, the maximum FDR remained capped, but the average FDR increased to 0.7468, reflecting better class separability. More importantly, the F1 score improved dramatically to 1.0000, signifying perfect classification on the test set. Overall, the average Fisher’s Ratio improved by 8.40%, and the F1 score rose from 0.0000 to 1.0000. These results indicate that the balanced dataset is far more suitable for classification tasks.
+
+
 Once I get a clean dataset that will dimensionally run a ML model I plan to start with a GNN. A recent study by Li et al. used an ensemble method with LR,SVM and NB. I will likely recreate that model and then compare the graph model to it so see if I can outperorm the model.
 
 **************************************************************************************************************************************************************************
