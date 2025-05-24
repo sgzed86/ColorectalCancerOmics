@@ -9,6 +9,15 @@ Final cleaned dataset: 96 rows × 107,854 columns <br/>
 
 Per extent literature I used - Student’s t test, Mann-Whitney U test, ANOVA (Analysis of Variance), chi-square test, and Fisher’s exact test to select key features further filtering the dataset... this takes way too long to check each feature like this. I am going to prefilter the data using varaince thresholding and correaltion analysis. Then I will run the aforementioned tests to get the key features.
 
+| Data Type           | Original Shape    | Final Shape     | Survival Features     | Recurrence Features     |
+|---------------------|-------------------|------------------|------------------------|--------------------------|
+| Clinical            | (96, 125)         | (96, 12)         | Retained              | Retained                 |
+| miRNA               | (96, 2583)        | (96, 327)        | 168                   | 165                      |
+| Proteomics          | (96, 9153)        | (96, 917)        | 384                   | 570                      |
+| Phosphoproteomics   | (96, 70,973)      | (96, 1995)       | 934                   | 1099                     |
+| Transcriptomics     | (96, 60,592)      | (96, 6275)       | 2213                  | 4307                     |
+
+
 Once I get a clean dataset that will dimensionally run a ML model I plan to start with a GNN. A recent study by Li et al. used an ensemble method with LR,SVM and NB. I will likely recreate that model and then compare the graph model to it so see if I can outperorm the model.
 
 **************************************************************************************************************************************************************************
