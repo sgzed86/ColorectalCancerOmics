@@ -7,8 +7,7 @@ Initial dataset: 96 rows × 143,423 columns <br/>
 Found and removed 35,569 columns that contained only NaN values <br/>
 Final cleaned dataset: 96 rows × 107,854 columns <br/>
 
-per extent literature I used - Student’s t test, Mann-Whitney U test, ANOVA (Analysis of Variance), chi-square test, and Fisher’s exact test to select key features further filtering the dataset
-
+Per extent literature I used - Student’s t test, Mann-Whitney U test, ANOVA (Analysis of Variance), chi-square test, and Fisher’s exact test to select key features further filtering the dataset
 
 
 **************************************************************************************************************************************************************************
