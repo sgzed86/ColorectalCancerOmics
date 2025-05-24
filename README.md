@@ -3,10 +3,10 @@ This is just Gen-omics research currently, I will layer in the multi-omics from 
 5/24/2025 I am downloading the COAD tsv files for miRNA, clinical, phosphoproteomics, proteomics, transcriptomics and somatic mutation using the CPTAC python API
 I will merge the available patient data in R and remove all the NaN columns first.
 
-Cleaned the data<br/>
-Initial dataset: 96 rows × 143,423 columns<br/>
-Found and removed 35,569 columns that contained only NaN values<br/>
-Final cleaned dataset: 96 rows × 107,854 columns<br/>
+Cleaned the data <br/>
+Initial dataset: 96 rows × 143,423 columns <br/>
+Found and removed 35,569 columns that contained only NaN values <br/>
+Final cleaned dataset: 96 rows × 107,854 columns <br/>
 
 
 
