@@ -24,7 +24,7 @@ I then joined the the data types to create two dataframes with different goals o
 | Dataset              | Shape                 | Target Variable     | Events Present           | Notes                                                       |
 |----------------------|------------------------|----------------------|---------------------------|-------------------------------------------------------------|
 | **Survival**         | 96 patients × 9,518 features | `survival_target`     | 7 survival events         | Includes selected clinical features and all omics data      |
-| **Recurrence**       | 96 patients × 9,519 features | `recurrence_target`   | Recurrence events present (slightly misformatted) | Includes all survival features plus `new_tumor_after_initial_treatment` |
+| **Recurrence**       | 96 patients × 9,519 features | `recurrence_target`   | Recurrence events present  | Includes all survival features plus `new_tumor_after_initial_treatment` |
 
 
 
