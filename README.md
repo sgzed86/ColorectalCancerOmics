@@ -1,6 +1,11 @@
 # ColorectalCancerOmics
 This is just Gen-omics research currently, I will layer in the multi-omics from CPTAC later. I am trying to use the python api to merge several datasets together.
+5/24/2025 I am downloading the COAD tsv files for miRNA, clinical, phosphoproteomics, proteomics, transcriptomics and somatic mutation using the CPTAC python API
+I will merge the available patient data in R and remove all the NaN columns first.
 
+
+
+**************************************************************************************************************************************************************************
 This analysis is written in R using the data from TCGA, analyzing based on the available cancer markers.
 
 5/22/2025 The underlying data is from 481 files with a size 2.03 gb. It took a little while to download directly into RStudio.
