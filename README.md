@@ -26,6 +26,9 @@ I then joined the the data types to create two dataframes with different goals o
 | **Survival**         | 96 patients × 9,518 features | `survival_target`     | 7 survival events         | Includes selected clinical features and all omics data      |
 | **Recurrence**       | 96 patients × 9,519 features | `recurrence_target`   | Recurrence events present  | Includes all survival features plus `new_tumor_after_initial_treatment` |
 
+I used prinipal component analysis to obtain the charts below but it appears that we need 73 components to explain 90% of the variance. Prior research has used 2 principal components but this seems like a lot of data loss.
+
+
 ![recurrence_explained_variance](recurrence_explained_variance.png)
 ![recurrence_pca_scatter](recurrence_pca_scatter.png)
 ![survival_explained_variance](survival_explained_variance.png)
