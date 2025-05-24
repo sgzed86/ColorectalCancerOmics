@@ -26,7 +26,7 @@ I then joined the the data types to create two dataframes with different goals o
 | **Survival**         | 96 patients × 9,518 features | `survival_target`     | 7 survival events         | Includes selected clinical features and all omics data      |
 | **Recurrence**       | 96 patients × 9,519 features | `recurrence_target`   | Recurrence events present  | Includes all survival features plus `new_tumor_after_initial_treatment` |
 
-
+![recurrence_explained_variance](recurrence_explained_variance.png)
 
 Once I get a clean dataset that will dimensionally run a ML model I plan to start with a GNN. A recent study by Li et al. used an ensemble method with LR,SVM and NB. I will likely recreate that model and then compare the graph model to it so see if I can outperorm the model.
 
