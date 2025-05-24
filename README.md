@@ -9,6 +9,7 @@ Final cleaned dataset: 96 rows × 107,854 columns <br/>
 
 Per extent literature I used - Student’s t test, Mann-Whitney U test, ANOVA (Analysis of Variance), chi-square test, and Fisher’s exact test to select key features further filtering the dataset... this takes way too long to check each feature like this. I am going to prefilter the data using varaince thresholding and correaltion analysis. Then I will run the aforementioned tests to get the key features.
 
+The variance filtering reduces the dataset down to 65395 features.
 
 **************************************************************************************************************************************************************************
 This is just Gen-omics research currently. 
