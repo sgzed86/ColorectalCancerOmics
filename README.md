@@ -33,6 +33,9 @@ I used prinipal component analysis to obtain the charts below but it appears tha
 ![recurrence_pca_scatter](recurrence_pca_scatter.png)
 ![survival_explained_variance](survival_explained_variance.png)
 ![survival_pca_scatter](survival_pca_scatter.png)
+
+I am dealing with a severely imbalanced binary classification problem (89 zeros vs. 7 ones). To create a more balanced sample for model training I need to reluctantly use SMOTE to oversample for the positive class.
+
 Once I get a clean dataset that will dimensionally run a ML model I plan to start with a GNN. A recent study by Li et al. used an ensemble method with LR,SVM and NB. I will likely recreate that model and then compare the graph model to it so see if I can outperorm the model.
 
 **************************************************************************************************************************************************************************
