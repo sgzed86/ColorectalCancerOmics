@@ -17,6 +17,16 @@ Per extent literature I used - Student’s t test, Mann-Whitney U test, ANOVA (A
 | Phosphoproteomics   | (96, 70,973)      | (96, 1995)       | 934                   | 1099                     |
 | Transcriptomics     | (96, 60,592)      | (96, 6275)       | 2213                  | 4307                     |
 
+I then joined the the data types to create two dataframes with different goals one based on survival and the other on recurrence:
+
+### DataFrames Summary
+
+| Dataset              | Shape                 | Target Variable     | Events Present           | Notes                                                       |
+|----------------------|------------------------|----------------------|---------------------------|-------------------------------------------------------------|
+| **Survival**         | 96 patients × 9,518 features | `survival_target`     | 7 survival events         | Includes selected clinical features and all omics data      |
+| **Recurrence**       | 96 patients × 9,519 features | `recurrence_target`   | Recurrence events present (slightly misformatted) | Includes all survival features plus `new_tumor_after_initial_treatment` |
+
+
 
 Once I get a clean dataset that will dimensionally run a ML model I plan to start with a GNN. A recent study by Li et al. used an ensemble method with LR,SVM and NB. I will likely recreate that model and then compare the graph model to it so see if I can outperorm the model.
 
