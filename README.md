@@ -1,4 +1,6 @@
 # ColorectalCancerOmics
+5/25/2025 I am finsihed with the coding and analysis. Just finshed the first draft of the corresponding research paper. I will wait to post the final scripts and the direction I went with the paper until it is published.
+
 5/24/2025 I am downloading the COAD tsv files for miRNA, clinical, phosphoproteomics, proteomics, transcriptomics and somatic mutation using the CPTAC python API
 Used several python scripts to iteratively join, filter and merge the data sets. 
 
